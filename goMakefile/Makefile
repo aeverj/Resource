@@ -1,6 +1,8 @@
 GOOS := windows
 GOARCH := amd64
 GARBLE := garble
+# 设置环境变量
+export GOOS GOARCH
 # 这里是源文件
 MAIN_GO := main.go
 
